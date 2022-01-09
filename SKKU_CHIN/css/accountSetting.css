@@ -42,9 +42,14 @@
         display: flex;
     }
 
+    .accountSetting_top img{
+        width: 15px;
+        height: 14px;
+    }
+
     /* 화면 상단의 '계정설정' 글씨 */ 
     .accountSetting_top h4 {
-        margin: 0 0 0 15px;
+        margin: 0 0 0 13px;
         font-size: 18px;
         font-weight: 900;
     }
@@ -91,6 +96,10 @@
 
     .accountSetting_int::placeholder{
         color: black;
+    }
+
+    #accountSetting_disable::placeholder{
+        color:#aaa7a7;
     }
 
     .accountSetting_box {

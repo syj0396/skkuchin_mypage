@@ -47,9 +47,14 @@
         display: flex;
     }
 
+    .mypage_top img{
+        width: 15px;
+        height: 14px;
+    }
+
     /* 화면 상단의 '마이페이지' 글씨 */ 
     .mypage_top h4 {
-        margin: 0 0 0 15px;
+        margin: 0 0 0 13px;
         font-size: 18px;
         font-weight: 900;
     }
