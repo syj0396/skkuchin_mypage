@@ -1,0 +1,144 @@
+@font-face{
+    src: url("../font/NanumSquareRoundL.ttf");
+    font-family: "NN";
+}
+
+@font-face{
+    src: url("../font/NanumSquareRoundOTFL.otf") format("truetype");
+    font-family: "NN";
+    font-weight: 100;
+}
+
+@font-face{
+    src: url("../font/NanumSquareRoundOTFR.otf") format("truetype");
+    font-family: "NN";
+    font-weight: 400;
+}
+
+@font-face{
+    src: url("../font/NanumSquareRoundOTFB.otf") format("truetype");
+    font-family: "NN";
+    font-weight: 700;
+}
+
+@font-face{
+    src: url("../font/NanumSquareRoundOTFEB.otf") format("truetype");
+    font-family: "NN";
+    font-weight: 900;
+}
+
+@media only screen and (max-width: 800px){
+    *{
+        font-family: "NN";
+        margin: 0;
+    }
+    /* 전체 그리드 */
+    .mypage_wrapper {
+        margin: 32px 20px 0 20px;
+    }
+
+    .mypage_wrapper a{
+        text-decoration: none;
+        color: #494949;
+    }
+
+    /* 화면 상단 */
+    .mypage_top {
+        display: flex;
+    }
+
+    /* 화면 상단의 '마이페이지' 글씨 */ 
+    .mypage_top h4 {
+        margin: 0 0 0 15px;
+        font-size: 18px;
+        font-weight: 900;
+    }
+
+    .mypage_profileBox {
+        display: flex;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        
+    }
+
+    /* 프로필 사진 */
+    .mypage_profileImage {
+        flex: 1.1;
+        /* padding-top: 5%; */
+        /* padding-left: 5%; */
+    }
+
+    .mypage_profileText {
+        flex: 1.9;
+        margin-left: 20px;
+    }
+
+    .mypage_name {
+        display: flex;
+    }
+
+    /* 'ㅇㅇㅇ님' 글씨 */
+    .mypage_name h2 {
+        /* flex: 5; */
+        margin: 0;
+        font-weight: 900;
+        color: #444444;
+    }
+
+    /* 연필 이미지 */
+    .mypage_name img {
+        /* flex: 1; */
+        width: 8%;
+        height: 8%;
+        margin-top: 8px;
+        margin-left: 8px;
+    }
+
+    .mypage_info {
+        display: flex;
+    }
+
+    .mypage_table {
+        margin-top: 9px;
+        border-spacing: 4px 5px;
+    }
+
+    .mypage_table tr{
+        height: 14px;
+    }
+
+    /* 학번, 학과, MBTI 글씨 */
+    .mypage_tableTitle {
+        font-size: 11px;
+        text-align: center;
+        color: #918f8f;
+        background-color: #E9E9E9;
+        border-radius: 0.7rem;
+        width: 15%;
+        padding: 2px 7px 2px 7px;
+        height: 60%;
+    }
+
+    .mypage_tableContent {
+        font-size: 14px;
+        font-weight: bold;
+        color: #918f8f;
+        
+    }
+
+    .mypage_table tr {
+        height: 20px;
+    }
+
+    .mypage_item:first-child{
+        border-top: 1.2px solid #EDEDED;
+    }
+
+    .mypage_item {
+        border-bottom: 1.2px solid #EDEDED;
+        padding: 21px 0 21px 10px;
+        font-size: 17px;
+        font-weight: bold;
+        color: #494949;
+    }
+}

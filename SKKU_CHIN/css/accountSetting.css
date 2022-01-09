@@ -1,0 +1,130 @@
+@font-face{
+    src: url("../font/NanumSquareRoundL.ttf");
+    font-family: "NN";
+}
+
+@font-face{
+    src: url("../font/NanumSquareRoundOTFL.otf") format("truetype");
+    font-family: "NN";
+    font-weight: 100;
+}
+
+@font-face{
+    src: url("../font/NanumSquareRoundOTFR.otf") format("truetype");
+    font-family: "NN";
+    font-weight: 400;
+}
+
+@font-face{
+    src: url("../font/NanumSquareRoundOTFB.otf") format("truetype");
+    font-family: "NN";
+    font-weight: 700;
+}
+
+@font-face{
+    src: url("../font/NanumSquareRoundOTFEB.otf") format("truetype");
+    font-family: "NN";
+    font-weight: 900;
+}
+
+@media only screen and (max-width: 800px){
+    *{
+        font-family: "NN";
+        margin: 0;
+    }
+    /* 전체 그리드 */
+    .accountSetting_wrapper {
+        margin: 32px 20px 0 20px;
+    }
+
+    /* 화면 상단 */
+    .accountSetting_top {
+        display: flex;
+    }
+
+    /* 화면 상단의 '계정설정' 글씨 */ 
+    .accountSetting_top h4 {
+        margin: 0 0 0 15px;
+        font-size: 18px;
+        font-weight: 900;
+    }
+
+    /* edit_profile.png 이미지 */
+    .accountSetting_img {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    /* 이미지와 '아이디*' 사이에 border 설정 */
+    #accountSetting_titleTop{
+        padding-top: 25px;
+        border-top: 1px solid #e4e0e0;
+    }
+
+    .accountSetting_title{
+        width: 100%;
+        margin: 25px auto 0 auto;
+    }
+
+    .accountSetting_title h2{
+        margin: 0 auto;
+        font-size: 12px;
+        font-weight: bold;
+        margin-left: 10px;
+    }
+
+    .accountSetting_text{
+        margin-top: 5px;
+        width: 100%;
+    }
+
+    .accountSetting_int{
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 27px;
+        border: none;
+        background: #FFFCED;
+        font-size: 17px;
+    }
+
+    .accountSetting_int::placeholder{
+        color: black;
+    }
+
+    .accountSetting_box {
+        display: block;
+        width: 100%;
+        height: 47px;
+        padding: 8px 15px 8px 15px;
+        box-sizing: border-box;
+        border-radius: 15px;
+        background: #FFFCED;
+        position: relative;
+    }
+
+    .accountSetting_box input:focus {
+        outline: none;
+        
+    }
+
+    /* 계정설정 저장 버튼 */
+    .accountSetting_btn{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .accountSetting_btn button{
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+        width: 100%;
+        height: 50px;
+        border-radius: 0.7rem;
+        border: none;
+        background-color: #FFCF00;
+        margin-top: 10px;
+    }
+}
